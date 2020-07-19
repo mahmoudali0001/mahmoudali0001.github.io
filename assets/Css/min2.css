@@ -1,0 +1,123 @@
+.head-line
+{
+    float:right;
+    margin-right: 12px;
+    margin-top: 1px;
+    font-size: 29px;
+}
+
+
+.border-r
+{
+    position: absolute;
+    top: 25px;
+    right: 3px;
+    border-right:2px solid  #3AADE6 ;
+    height: 55px;
+    margin-top: 1px;
+}
+
+.container-info
+{
+    margin-top: 150px;
+}
+.card-info
+{
+    margin: 0 auto;
+}
+
+.btn-toolbar
+{
+    margin-top: 48px;
+    
+}
+.btn
+{
+    border-right: .6px solid rgba(151, 151, 151, 0.856);
+}
+
+.btn:first-of-type
+{
+    border: none;
+}
+
+.bg-microsoft
+{
+    background-image: url(../image/articles.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 120px;
+}
+
+.head-line-mirco
+{
+    
+    margin-top: 10px;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+
+/* boder right of microsoft page*/
+.border-r-micro
+{
+    margin:10px ;
+    border-right: 4px solid #3AADE6;
+    height: 41px;
+}
+/* img of the footer*/
+
+.footer-one-img
+{
+    width: 53rem
+}
+@media(max-width: 768px)
+{
+    .footer-one-img
+    {
+        width: 100%;
+    }
+}
+
+.project-details
+{
+    background-image: url(../image/details-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.project-text
+{
+
+    color: #FFF;
+    font-size: 32px;
+    line-height: 1.9;
+} 
+ .project-text p
+{
+    margin-top: 107px;
+}
+.border-r-project
+{
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    border-right: 4px solid #3AADE6;
+    height: 41px;
+}
+/* Project slider*/
+.card-carousel .my-card
+{
+    width: 12rem;
+    position: relative;
+
+}
+.bg-microsoft-info
+{
+    background-color: #EEE;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
